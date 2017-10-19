@@ -1,5 +1,7 @@
 package com.epam.hw2;
-
+/**
+ * Test for method ReturnLight, which output color of traffic light, getting minutes of it's working
+ */
 
 import org.junit.After;
 import org.junit.Assert;
@@ -13,7 +15,7 @@ public class TestTrafficLight {
         System.out.println("New Test");
     }
     @Test
-    public void testForTrafficLight(){
+    public void testForReturnLight(){
         Assert.assertEquals("wrong",  " red ", trafficLight.returnLight(1));
         Assert.assertEquals("wrong",  " yellow ", trafficLight.returnLight(4));
         Assert.assertEquals("wrong", " green ", trafficLight.returnLight(7));
