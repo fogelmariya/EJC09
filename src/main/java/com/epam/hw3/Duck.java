@@ -1,5 +1,8 @@
 package com.epam.hw3;
 
+import com.epam.hw3.Interface.FlyBehavior;
+import com.epam.hw3.Interface.QuackBehavior;
+
 /**
  *
  */

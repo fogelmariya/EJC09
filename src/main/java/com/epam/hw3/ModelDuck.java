@@ -1,5 +1,8 @@
 package com.epam.hw3;
 
+import com.epam.hw3.Interface.FlyBehaviorImpl.FlyNoWay;
+import com.epam.hw3.Interface.QuackBehaviorImpl.Quack;
+
 /**
  *Example of duck, who quack and can't fly
  */
