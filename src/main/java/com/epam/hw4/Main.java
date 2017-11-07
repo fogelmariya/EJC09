@@ -22,7 +22,7 @@ public class Main {
         Random random = new Random();
         int result = startSpeed;
         for (int i = 0; i < (distance / 10); i++) {
-            result += random.nextInt(startSpeed);
+            result += random.nextInt(10 - startSpeed);
         }
         return result;
     }
